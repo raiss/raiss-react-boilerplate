@@ -1,0 +1,15 @@
+.container {
+  margin: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background: #eee;
+  border: 1px solid #999;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px;
+  width: 22%;
+  height: 40px;
+}

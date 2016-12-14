@@ -1,0 +1,36 @@
+.container {
+  position: relative;
+  color: white;
+  text-shadow: 0 0 2px black,  0 0 15px rgba(0, 0, 0, 0.4);
+  margin: 15px;
+  height: 30px;
+  background: #ddd;
+  border: 1px solid #444;
+  border-bottom: 4px solid gray;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.selected {
+  border: 1px solid #f0ff09;
+  border-bottom: 4px solid #f0ff09;
+}
+
+.isSelected {
+  .percentage {
+    color: gray;
+  }
+}
+
+.bar {
+  width: 0;
+  height: 100%;
+  transition: width .3s;
+}
+
+.percentage {
+  position: absolute;
+  font-family: arial;
+  font-size: 18px;
+  top: 6px;
+  left: 45%;
+}
